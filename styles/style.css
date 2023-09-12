@@ -39,7 +39,7 @@ a:visited {
 .avatar {
     max-width: 240px;
     border-radius: 28px;
-    box-shadow: 4px 4px 14px rgba(0, 0, 0, .25);
+    box-shadow: 4px 4px 14px rgba(0, 0, 0,  .25);
 }
 
 .info-text {
@@ -179,4 +179,28 @@ a:visited {
     padding: 15px 0 10px;
     outline: none;
     font-family: inherit;
+}
+
+@media (max-width: 650px) {
+    .info {
+        display: block;
+        text-align: center;
+    }
+
+    .card {
+        padding: 5px 10px;
+    }
+
+    .form-row .form-group {
+        margin-right: 0;
+        width: 100%;
+    }
+
+    .form-row {
+        margin-bottom: 3px;
+        display: block;
+    }
+    .btn {
+        width: 100%;
+    }
 }
