@@ -187,6 +187,10 @@ a:visited {
         text-align: center;
     }
 
+    .info-text {
+        margin-left: 0;
+    }
+
     .card {
         padding: 5px 10px;
     }
