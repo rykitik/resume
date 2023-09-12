@@ -113,3 +113,31 @@ a:visited {
     color: #86898f;
     margin-bottom: 10px;
 }
+
+.link-list {
+    list-style: none;
+    padding: 0;
+}
+
+.link-list li {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+
+.table {
+    width: 100%;
+}
+
+.table td, .table th {
+    padding-bottom: 10px;
+}
+
+.table th {
+    text-align: left;
+}
+
+.table td:nth-child(2),
+.table td:nth-child(3) {
+    color: #86898f;
+}
